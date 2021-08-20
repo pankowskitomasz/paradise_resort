@@ -4,8 +4,14 @@ $bg__classes:
     "error",
     "comingsoon",
     "privacy";
+$bg__card-1-img: "../img/card_bg/card_bg_1.jpg";
+$bg__card-2-img: "../img/card_bg/card_bg_2.jpg";
+$bg__card-3-img: "../img/card_bg/card_bg_3.jpg";
+$bg__card-4-img: "../img/card_bg/card_bg_4.jpg";
 $bg__comingsoon-img: "../img/hotel.jpg";
 $bg__error-img: "../img/hotel.jpg";
+$bg__index-s1-img: "../img/index/index-s1.jpg";
+$bg__index-s3-img: "../img/index/index-s3.jpg";
 $bg__privacy-img: "../img/privacy.jpg";
 $bg__aoa:
     $bg__error-img,
@@ -13,12 +19,14 @@ $bg__aoa:
     $bg__privacy-img;
 $body__min-height: 100%;
 $color__bg-1: #666;
+$color__blue: #0080cb;
 $color__shadow: #000;
 $color__container-bg: #fff;
 $font-logo__family: 'Raleway';
 $font-logo__size: 24px;
 $font-main__family: 'Raleway';
 $font-main__size: 16px;
+$footer__height: 40px;
 $header__height: 78px;
 $section__min-height: 100vh;
 $text__shadow: 1px 1px 4px $color__shadow;

@@ -8,21 +8,29 @@
     @include background-blend($bg__blend--soft, $color__bg-1);
 }
 
+.bg{
+    &-blue{
+        background-color: $color__blue!important;
+    }
+    &-card-1{
+        @include set-background($bg__card-1-img,0,"center","cover","scroll");
+    }
+    &-card-2{
+        @include set-background($bg__card-2-img,0,"center","cover","scroll");
+    }
+    &-card-3{
+        @include set-background($bg__card-3-img,0,"center","cover","scroll");
+    }
+    &-card-4{
+        @include set-background($bg__card-4-img,0,"center","cover","scroll");
+    }
+}
 .comingsoon{
     &-s1{
         @extend %bg-blend;
     }
 }
 .error{
-    &-s1{
-        @extend %bg-blend;
-    }
-}
-.privacy{
-    &-container{
-        background-color: $color__container-bg !important;
-        backdrop-filter: $backdrop__filter;
-    }
     &-s1{
         @extend %bg-blend;
     }
@@ -35,11 +43,48 @@
         @include set-font-params($font-main__family,$font-main__size);
     }
 }
+.h{
+    &-100vh{
+        height: 100vh;
+    }
+}
+.index{
+    &-s1{
+        @include set-background($bg__index-s1-img,0,"center","cover","scroll");
+
+    }
+    &-s3{
+        @include set-background($bg__index-s3-img,0,"center","cover","scroll");
+
+    }
+}
+.maxh{
+    &-600{
+        max-height: 600px;
+    }
+}
 .navbar{
     &-toggler{
         &-icon{
             background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
         }
+    }
+}
+.opacity{
+    &-8{
+        opacity: 0.8;
+    }
+    &-9{
+        opacity: 0.9;
+    }
+}
+.privacy{
+    &-container{
+        background-color: $color__container-bg !important;
+        backdrop-filter: $backdrop__filter;
+    }
+    &-s1{
+        @extend %bg-blend;
     }
 }
 .text{
