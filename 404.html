@@ -11,21 +11,28 @@
     <body>
         <header class="container-fluid position-absolute">
             <nav class="navbar navbar-dark navbar-expand-md bg-transparent">
-                <a href="index.html" class="navbar-brand">
-                    <img src="img/navbar_logo.png" alt="logo">
-                    <span class="navbar-text font-logo text-white">
-                        Paradise Resort
-                    </span>
+                <a href="#" class="navbar-brand">
+                    <img src="img/navbar_logo.png" class="img-fluid" alt="logo"/>
                 </a>
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#main-nav">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainnav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="main-nav">
-                    <ul class="navbar-nav ml-auto text-white font-menu text-uppercase">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link text-right text-white">
-                                back to <span class="font-weight-bold">Home</span
-                            ></a>
+                <div class="collapse navbar-collapse" id="mainnav">
+                    <ul class="navbar-nav text-end ms-auto text-uppercase">
+                        <li class="nav-item pe-3">
+                            <a href="index.html" class="nav-link text-white text-shadow">Home</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a href="tours.html" class="nav-link text-white text-shadow">Tours</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a href="about.html" class="nav-link text-white text-shadow">About</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a href="contact.html" class="nav-link text-white text-shadow">Contact</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a href="login.html" class="nav-link text-white text-shadow"><span class="fa fa-user"></span></a>
                         </li>
                     </ul>
                 </div>
@@ -43,20 +50,48 @@
                 </div>
             </section>
         </main>
-        <footer class="container-fluid bg-dark d-flex align-items-center justify-content-center py-2">
-            <div class="row w-100">
-                <div class="col-12 text-center">
-                    <small class="text-white font-weight-bold text-uppercase">
-                        Copyright &copy; 2020 Tomasz Pankowski. 
-                        <a href="privacy.html" class="text-white">
-                            Privacy policy.
+        <footer class="container-fluid d-flex text-dark align-items-center bg-dark text-white pt-3 opacity-9 border-top">
+            <div class="row mx-0 w-100 small opacity-9">
+                <div class="col-12 col-md-6 col-lg-5 text-center text-md-start">
+                    <img src="img/navbar_logo.png" class="img-fluid" alt="logo"/>
+                    <p class="initialism fw-normal">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-7 text-center text-md-end">                    
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa fa-facebook text-white"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa fa-instagram text-white"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa fa-twitter text-white"></span>
+                            </a>
+                        </li>
+                    </ul>       
+                </div>
+                <div class="col-12 text-center border-top">
+                    <p class="mb-1">
+                        Copyright &copy; 2021-2022 Tomasz Pankowski. 
+                        <a href="privacy.html" class="fw-bold text-white text-decoration-none">
+                            Privacy policy
                         </a>
-                    </small>
+                    </p>
                 </div>
             </div>
         </footer>
-        <script src="node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="js/main.min.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
