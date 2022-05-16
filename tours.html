@@ -10,7 +10,7 @@
         <title></title>
     </head>
     <body class="minh-100vh bg-secondary">
-        <header class="fixed-top">
+        <header class="position-absolute w-100">
             <nav class="navbar navbar-dark navbar-expand-md bg-transparent">
                 <a href="#" class="navbar-brand">
                     <img src="img/navbar_logo.png" class="img-fluid" alt="logo"/>
@@ -21,16 +21,16 @@
                 <div class="collapse navbar-collapse" id="mainnav">
                     <ul class="navbar-nav text-end ms-auto text-uppercase">
                         <li class="nav-item pe-3">
-                            <a href="index.html" class="nav-link text-white text-shadow">Home</a>
+                            <a href="index.html" class="nav-link text-white text-shadow fw-bold">Home</a>
                         </li>
                         <li class="nav-item pe-3">
-                            <a href="tours.html" class="nav-link text-white text-shadow">Tours</a>
+                            <a href="tours.html" class="nav-link text-white text-shadow fw-bold">Tours</a>
                         </li>
                         <li class="nav-item pe-3">
-                            <a href="about.html" class="nav-link text-white text-shadow">About</a>
+                            <a href="about.html" class="nav-link text-white text-shadow fw-bold">About</a>
                         </li>
                         <li class="nav-item pe-3">
-                            <a href="contact.html" class="nav-link text-white text-shadow">Contact</a>
+                            <a href="contact.html" class="nav-link text-white text-shadow fw-bold">Contact</a>
                         </li>
                         <li class="nav-item pe-3">
                             <a href="login.html" class="nav-link text-white text-shadow"><span class="fa fa-user"></span></a>
@@ -40,18 +40,18 @@
             </nav>
         </header>
         <main>
-            <section class=" container-fluid d-flex minh-50vh bg-dark align-items-center py-5 border-top border-secondary">
+            <section class="tours-s1 container-fluid d-flex minh-50vh bg-dark align-items-center py-5">
                 <div class="row mx-0 w-100 mt-5">
                     <div class="col-12 col-md-7 minh-25vh order-1 order-md-2"></div>
                     <div class="col-12 col-md-5 minh-50vh order-2 order-md-1 d-flex align-items-center">
                         <div class="w-100 text-center text-md-start">
-                            <h5 class="text-white">
+                            <h5 class="text-secondary">
                                 Sed ut perspiciatis
                             </h5>
-                            <h2 class="dispaly-6 fw-bold text-secondary text-shadow">
+                            <h2 class="dispaly-6 fw-bold text-dark">
                                 Unde omnis iste
                             </h2>
-                            <p class="text-white">
+                            <p class="text-secondary">
                                 Natus error sit voluptatem accusantium doloremque laudantium, 
                                 totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
                                 et quasi architecto beatae vitae dicta sunt explicabo. Nemo 
@@ -63,7 +63,7 @@
                     </div>
                 </div>
             </section>
-            <section class=" container-fluid d-flex minh-25vh border-bottom bg-light align-items-center py-5">
+            <section class="tours-s2 container-fluid d-flex minh-25vh border-bottom bg-light align-items-center py-5 border-top border-secondary">
                 <div class="row mx-0 w-100">
                     <div class="col-8 col-sm-5 col-md-4 p-3 mx-auto">
                         <div class="card">
@@ -121,9 +121,9 @@
                     </div>
                 </div>
             </section>
-            <section class=" container-fluid d-flex minh-50vh bg-light align-items-center py-5" id="branches-4">
+            <section class="tours-s3 container-fluid d-flex minh-50vh bg-light align-items-center py-5" id="branches-4">
                 <div class="row mx-0 w-100">
-                    <div class="col-12 col-md-6 minh-50vh d-flex align-items-center">
+                    <div class="col-12 col-md-5 minh-50vh d-flex align-items-center">
                         <div class="w-100 text-center text-md-start">
                             <h2 class="dispaly-6 fw-bold text-secondary">
                                 Lorem ipsum dolor
@@ -168,14 +168,14 @@
                     </div>
                 </div>
             </section>
-            <section class=" container-fluid d-flex minh-50vh bg-secondary align-items-center py-5" id="branches-3">
+            <section class="tours-s4 container-fluid d-flex minh-50vh bg-secondary align-items-center py-5 border-top border-secondary">
                 <div class="row mx-0 w-100">
-                    <div class="col-12 col-md-6 offset-md-6 col-lg-5 offset-lg-7 minh-50vh d-flex align-items-center">
+                    <div class="col-12 col-md-5 offset-md-7 col-lg-5 offset-lg-7 minh-50vh d-flex align-items-center">
                         <div class="w-100 text-center text-md-start">
-                            <h2 class="dispaly-6 fw-bold text-white">
+                            <h2 class="dispaly-6 fw-bold text-secondary">
                                 Lorem ipsum
                             </h2>
-                            <p class="text-white">
+                            <p class="text-secondary">
                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
                                 doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
                                 veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim 
@@ -183,7 +183,7 @@
                             </p>
                             <table class="table table-hover table-striped">
                                 <thead>
-                                    <tr class="text-light">
+                                    <tr class="text-secondary">
                                         <th class="w-25">Name</th>
                                         <th class="w-50">Description</th>
                                         <th class="w-25">Price</th>
@@ -208,7 +208,7 @@
                                 </tbody>
                             </table>
                             <div class="w-100 text-center py-3">
-                                <a href="#" class="btn btn-sm btn-outline-light rounded-pill">
+                                <a href="#" class="btn btn-sm btn-outline-secondary rounded-pill">
                                     Lorem ipsum <span class="fw-bold mx-1">dolor</span>
                                 </a>
                             </div>
@@ -216,9 +216,9 @@
                     </div>
                 </div>
             </section>
-            <section class=" container-fluid d-flex minh-50vh bg-light align-items-center py-5" id="branches-4">
+            <section class="tours-s5 container-fluid d-flex minh-50vh bg-light align-items-center py-5" id="branches-4">
                 <div class="row mx-0 w-100">
-                    <div class="col-12 col-md-6 minh-50vh d-flex align-items-center">
+                    <div class="col-12 col-md-5 minh-50vh d-flex align-items-center">
                         <div class="w-100 text-center text-md-start">
                             <h2 class="dispaly-6 fw-bold text-secondary">
                                 Lorem ipsum dolor
@@ -263,7 +263,7 @@
                     </div>
                 </div>
             </section>
-            <section class=" container-fluid d-flex minh-50vh align-items-center py-5 border-top">
+            <section class="tours-s6 container-fluid d-flex minh-50vh align-items-center py-5 border-top">
                 <div class="row mx-0 w-100 px-3 text-shadow">
                     <div class="col-12 py-3">
                         <h2 class="display-6 text-center text-md-start text-white text-uppercase">

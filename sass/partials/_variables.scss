@@ -1,22 +1,43 @@
-$backdrop__filter: blur(10px) contrast(25%);
-$bg__blend--soft: multiply;
-$bg__classes:
-    "error",
-    "comingsoon",
-    "privacy";
-$bg__card-1-img: "../img/card_bg/card_bg_1.jpg";
-$bg__card-2-img: "../img/card_bg/card_bg_2.jpg";
-$bg__card-3-img: "../img/card_bg/card_bg_3.jpg";
-$bg__card-4-img: "../img/card_bg/card_bg_4.jpg";
+$prefix: "../";
+$bg__about-img: 
+    $prefix+"img/about/about-s1.jpg",
+    $prefix+"img/about/about-s2.jpg",
+    $prefix+"img/about/about-s3.jpg",
+    $prefix+"img/about/about-s4.jpg";
 $bg__comingsoon-img: "../img/hotel.jpg";
-$bg__error-img: "../img/hotel.jpg";
-$bg__index-s1-img: "../img/index/index-s1.jpg";
-$bg__index-s3-img: "../img/index/index-s3.jpg";
+$bg__contact-img: 
+    $prefix+"img/contact/contact-s1.jpg",
+    $prefix+"img/contact/contact-s2.jpg",
+    $prefix+"img/contact/contact-s3.jpg";
+$bg__error-img: $prefix+"img/error.jpg";
+$bg__index-img: $prefix+"img/index/index-s1.jpg";
+$bg__tours-img: 
+    $prefix+"img/tours/tours-s1.jpg",
+    "",
+    $prefix+"img/tours/tours-s3.jpg",
+    $prefix+"img/tours/tours-s4.jpg",
+    $prefix+"img/tours/tours-s5.jpg",
+    $prefix+"img/tours/tours-s6.jpg";
 $bg__privacy-img: "../img/privacy.jpg";
-$bg__aoa:
-    $bg__error-img,
+$bg__user-img: $prefix+"img/user/user-s1.jpg";
+$bg__init:
+    "about",
+    "comingsoon",
+    "contact",
+    "error",
+    "index",
+    "tours",
+    "privacy",
+    "user";
+$classes_init:
+    $bg__about-img,
     $bg__comingsoon-img,
-    $bg__privacy-img;
+    $bg__contact-img,
+    $bg__error-img,
+    $bg__index-img,
+    $bg__tours-img,
+    $bg__privacy-img,
+    $bg__user-img;
 $body__min-height: 100%;
 $color__bg-1: #666;
 $color__blue: #0080cb;
@@ -29,8 +50,4 @@ $font-main__size: 16px;
 $footer__height: 40px;
 $header__height: 78px;
 $section__min-height: 100vh;
-$text__shadow: 1px 1px 4px $color__shadow;
-$theme-colors: (
-  "primary": #30a9d6,
-  "secondary": #ffd544
-);
+$text__shadow: 1px 1px 3px #333;
