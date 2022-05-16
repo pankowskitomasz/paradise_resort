@@ -19,7 +19,7 @@
   "dependencies": {
     "angular": "^1.8.2",
     "audit": "0.0.6",
-    "bootstrap": "^4.5.3",
+    "bootstrap": "^4.6.1",
     "fix": "0.0.6",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
